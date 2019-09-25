@@ -12,3 +12,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.background {
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  white-space: nowrap;
+}
