@@ -2,35 +2,42 @@ import React, { Component } from "react";
 import "./NavBar.css";
 
 class NavBar extends Component {
+  state = {
+    home: "",
+    retro: ""
+  };
+
+  switchActive(tab) {
+    console.log(tab);
+    this.setState.home = "";
+    this.setState.retro = "";
+    if (tab === "home") {
+      this.setState.home = "active";
+    } else if (tab === "retro") {
+      this.setState.retro = "active";
+    }
+  }
+
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          Navbar
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">
-              Home <span class="sr-only">(current)</span>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <h2 className="navbar-brand">Garret's Protfolio</h2>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <a
+              className={`nav-item nav-link ${this.state.home}`}
+              href="/"
+              onClick={() => this.switchActive("home")}
+            >
+              Home <span className="sr-only">(current)</span>
             </a>
-            <a class="nav-item nav-link" href="#">
-              Features
+            <a
+              className={`nav-item nav-link ${this.state.retro}`}
+              href="/retro"
+              onClick={() => this.switchActive("retro")}
+            >
+              Retro
             </a>
-            <a class="nav-item nav-link" href="#">
-              Pricing
-            </a>
-            <a class="nav-item nav-link disabled">Disabled</a>
           </div>
         </div>
       </nav>
