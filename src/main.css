@@ -1,0 +1,160 @@
+body {
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.background {
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  white-space: nowrap;
+}
+
+#testing {
+  color: red;
+}
+
+.navbar {
+  background-color: green;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.mariosky {
+  background-color: lightblue;
+  height: 300px;
+}
+
+.mariovalley {
+  background-color: green;
+  height: 100px;
+}
+
+.marioroad {
+  background-color: black;
+  height: 250px;
+}
+
+.mariolines {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 5px dashed white;
+  height: 0px;
+  width: 100%;
+  position: relative;
+  top: 45%;
+}
+
+.mariokart {
+  position: absolute;
+  top: -150px;
+  -webkit-animation: drive 10s linear infinite both;
+          animation: drive 10s linear infinite both;
+}
+
+.luigikart {
+  position: absolute;
+  top: -10px;
+  -webkit-animation: drive 11s linear infinite both;
+          animation: drive 11s linear infinite both;
+}
+
+.browserkart {
+  position: absolute;
+  top: -100px;
+  -webkit-animation: drive 15s linear infinite both;
+          animation: drive 15s linear infinite both;
+}
+
+.toadkart {
+  position: absolute;
+  top: -200px;
+  -webkit-animation: drive 7s linear infinite both;
+          animation: drive 7s linear infinite both;
+}
+
+.bigcloud {
+  position: absolute;
+  opacity: 0.5;
+  -webkit-animation: wind 30s linear infinite both;
+          animation: wind 30s linear infinite both;
+}
+
+.smallcloud {
+  position: absolute;
+  top: 20px;
+  -webkit-animation: wind 20s linear infinite both;
+          animation: wind 20s linear infinite both;
+}
+
+@-webkit-keyframes drive {
+  0% {
+    -webkit-transform: translateX(-50vw);
+            transform: translateX(-50vw);
+  }
+  100% {
+    -webkit-transform: translateX(150vw);
+            transform: translateX(150vw);
+  }
+}
+
+@keyframes drive {
+  0% {
+    -webkit-transform: translateX(-50vw);
+            transform: translateX(-50vw);
+  }
+  100% {
+    -webkit-transform: translateX(150vw);
+            transform: translateX(150vw);
+  }
+}
+
+@-webkit-keyframes wind {
+  0% {
+    -webkit-transform: translateX(110vw);
+            transform: translateX(110vw);
+  }
+  100% {
+    -webkit-transform: translateX(-50vw);
+            transform: translateX(-50vw);
+  }
+}
+
+@keyframes wind {
+  0% {
+    -webkit-transform: translateX(110vw);
+            transform: translateX(110vw);
+  }
+  100% {
+    -webkit-transform: translateX(-50vw);
+            transform: translateX(-50vw);
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,113 @@
+$mycolor: black;
+
+body {
+background-color:$mycolor;
+}
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  
+  .background {
+    background-color: black;
+  }
+  
+  .container {
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  #testing {
+      color: red;
+  }
+
+  .navbar{
+      background-color:green;
+  }
+//Jumbotron
+  .jumbotron{
+    margin-bottom:0
+  }
+
+
+//Mario
+  .mariosky{
+    background-color:lightblue;
+    height: 300px
+  }
+
+  .mariovalley{
+    background-color: green;
+    height:100px;
+  }
+
+  .marioroad{
+    background-color:black;
+    height:250px;
+  }
+
+  .mariolines{
+    box-sizing: border-box;
+    border: 5px dashed white;
+    height: 0px;
+    width: 100%;
+    position: relative;
+    top: 45%;
+  }
+
+  .mariokart{
+    position: absolute;
+    top:-150px;
+    animation: drive 10s linear infinite both;
+  }
+
+  .luigikart{
+    position: absolute;
+    top:-10px;
+    animation: drive 11s linear infinite both;
+  }
+
+  .browserkart{
+    position: absolute;
+    top:-100px;
+    animation: drive 15s linear infinite both;
+  }
+
+  .toadkart{
+    position: absolute;
+    top:-200px;
+    animation: drive 7s linear infinite both;
+  }
+
+  .bigcloud{
+    position: absolute;
+    opacity:0.5;
+    animation: wind 30s linear infinite both;
+  }
+  .smallcloud{
+    position: absolute;
+    top:20px;
+    animation: wind 20s linear infinite both;
+  }
+  
+  //marioKeyFrames
+
+  @keyframes drive{
+    0%{transform: translateX(-50vw)}
+    100%{transform: translateX(150vw)}
+  }
+
+  @keyframes wind {
+    0%{transform: translateX(110vw)}
+    100%{transform: translateX(-50vw)}
+  }
