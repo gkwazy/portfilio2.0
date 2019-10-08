@@ -49,12 +49,12 @@ body {
 
 .mariosky {
   background-color: lightblue;
-  height: 300px;
+  height: 220px;
 }
 
 .mariovalley {
   background-color: green;
-  height: 100px;
+  height: 50px;
 }
 
 .marioroad {
@@ -116,45 +116,45 @@ body {
 
 @-webkit-keyframes drive {
   0% {
-    -webkit-transform: translateX(-50vw);
-            transform: translateX(-50vw);
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
   }
   100% {
-    -webkit-transform: translateX(150vw);
-            transform: translateX(150vw);
+    -webkit-transform: translateX(99%);
+            transform: translateX(99%);
   }
 }
 
 @keyframes drive {
   0% {
-    -webkit-transform: translateX(-50vw);
-            transform: translateX(-50vw);
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
   }
   100% {
-    -webkit-transform: translateX(150vw);
-            transform: translateX(150vw);
+    -webkit-transform: translateX(99%);
+            transform: translateX(99%);
   }
 }
 
 @-webkit-keyframes wind {
   0% {
-    -webkit-transform: translateX(110vw);
-            transform: translateX(110vw);
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
   }
   100% {
-    -webkit-transform: translateX(-50vw);
-            transform: translateX(-50vw);
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
   }
 }
 
 @keyframes wind {
   0% {
-    -webkit-transform: translateX(110vw);
-            transform: translateX(110vw);
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
   }
   100% {
-    -webkit-transform: translateX(-50vw);
-            transform: translateX(-50vw);
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
   }
 }
 /*# sourceMappingURL=main.css.map */

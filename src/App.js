@@ -8,8 +8,9 @@ class App extends Component {
     return (
       <div className="wrapper">
         <Jumbo />
-        <Mario />
-
+        <div className="container">
+          <Mario />
+        </div>
       </div>
     );
   }

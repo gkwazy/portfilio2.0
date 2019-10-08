@@ -43,12 +43,12 @@ background-color:$mycolor;
 //Mario
   .mariosky{
     background-color:lightblue;
-    height: 300px
+    height: 220px
   }
 
   .mariovalley{
     background-color: green;
-    height:100px;
+    height:50px;
   }
 
   .marioroad{
@@ -68,7 +68,7 @@ background-color:$mycolor;
   .mariokart{
     position: absolute;
     top:-150px;
-    animation: drive 10s linear infinite both;
+    animation: drive 10s linear infinite both,
   }
 
   .luigikart{
@@ -103,11 +103,11 @@ background-color:$mycolor;
   //marioKeyFrames
 
   @keyframes drive{
-    0%{transform: translateX(-50vw)}
-    100%{transform: translateX(150vw)}
+    0%{transform: translateX(-10%)}
+    100%{transform: translateX(99%)}
   }
 
   @keyframes wind {
-    0%{transform: translateX(110vw)}
-    100%{transform: translateX(-50vw)}
+    0%{transform: translateX(50%)}
+    100%{transform: translateX(-20%)}
   }

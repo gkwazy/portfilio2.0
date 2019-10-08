@@ -9,7 +9,7 @@ class Jumbo extends Component {
                     Welcome! My name is Garret Wasden, I am a web developer and my goal is to build fun professional web pages.
                 </p>
                 <p>
-                    For this page we will be taking a history though gaming and also show and talking about how I can help you.
+                    Now buckle your seatbelts and get ready to scroll!
                 </p>
 
             </div>
