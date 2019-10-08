@@ -1,5 +1,10 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: black;
+  overflow-x: hidden;
 }
 
 .App {
@@ -35,20 +40,20 @@ body {
   white-space: nowrap;
 }
 
-#testing {
-  color: red;
-}
-
-.navbar {
-  background-color: green;
+.cardCol {
+  padding: 3px;
 }
 
 .jumbotron {
   margin-bottom: 0;
 }
 
+.jumb1 {
+  background-color: lightskyblue;
+}
+
 .mariosky {
-  background-color: lightblue;
+  background-color: lightskyblue;
   height: 220px;
 }
 
@@ -68,7 +73,7 @@ body {
   border: 5px dashed white;
   height: 0px;
   width: 100%;
-  position: relative;
+  position: absolute;
   top: 45%;
 }
 
@@ -116,45 +121,45 @@ body {
 
 @-webkit-keyframes drive {
   0% {
-    -webkit-transform: translateX(-10%);
-            transform: translateX(-10%);
+    -webkit-transform: translateX(-30vw);
+            transform: translateX(-30vw);
   }
   100% {
-    -webkit-transform: translateX(99%);
-            transform: translateX(99%);
+    -webkit-transform: translateX(110vw);
+            transform: translateX(110vw);
   }
 }
 
 @keyframes drive {
   0% {
-    -webkit-transform: translateX(-10%);
-            transform: translateX(-10%);
+    -webkit-transform: translateX(-30vw);
+            transform: translateX(-30vw);
   }
   100% {
-    -webkit-transform: translateX(99%);
-            transform: translateX(99%);
+    -webkit-transform: translateX(110vw);
+            transform: translateX(110vw);
   }
 }
 
 @-webkit-keyframes wind {
   0% {
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
   }
   100% {
-    -webkit-transform: translateX(-20%);
-            transform: translateX(-20%);
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
   }
 }
 
 @keyframes wind {
   0% {
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
   }
   100% {
-    -webkit-transform: translateX(-20%);
-            transform: translateX(-20%);
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,7 +1,11 @@
 $mycolor: black;
 
+html{
+  overflow-x: hidden;
+}
 body {
 background-color:$mycolor;
+overflow-x: hidden;
 }
 .App {
     text-align: center;
@@ -27,22 +31,23 @@ background-color:$mycolor;
     white-space: nowrap;
   }
 
-  #testing {
-      color: red;
-  }
+//Skills
+ .cardCol{
+   padding:3px;
+ }
 
-  .navbar{
-      background-color:green;
-  }
 //Jumbotron
   .jumbotron{
-    margin-bottom:0
+    margin-bottom:0;
   }
 
+  .jumb1{
+    background-color:lightskyblue;
+  }
 
 //Mario
   .mariosky{
-    background-color:lightblue;
+    background-color:lightskyblue;
     height: 220px
   }
 
@@ -61,7 +66,7 @@ background-color:$mycolor;
     border: 5px dashed white;
     height: 0px;
     width: 100%;
-    position: relative;
+    position: absolute;
     top: 45%;
   }
 
@@ -103,11 +108,11 @@ background-color:$mycolor;
   //marioKeyFrames
 
   @keyframes drive{
-    0%{transform: translateX(-10%)}
-    100%{transform: translateX(99%)}
+    0%{transform: translateX(-30vw)}
+    100%{transform: translateX(110vw)}
   }
 
   @keyframes wind {
-    0%{transform: translateX(50%)}
-    100%{transform: translateX(-20%)}
+    0%{transform: translateX(100vw)}
+    100%{transform: translateX(-100vw)}
   }

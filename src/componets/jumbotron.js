@@ -3,8 +3,9 @@ import React, { Component } from "react";
 class Jumbo extends Component {
     render() {
         return (
-            <div className="jumbotron jumbotron-fluid text-center">
-                <h1 className="display-4">So you are here at last</h1>
+            <div className="jumbotron jumbotron-fluid text-center jumb1">
+                <h1 className="display-4">Garret Wasden</h1>
+                <h2 className="display-5">Web Developer</h2>
                 <p>
                     Welcome! My name is Garret Wasden, I am a web developer and my goal is to build fun professional web pages.
                 </p>

@@ -20,26 +20,8 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg" id="testing">
-        <h2 className="navbar-brand">Garret's Protfolio</h2>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a
-              className={`nav-item nav-link ${this.state.home}`}
-              href="/"
-              onClick={() => this.switchActive("home")}
-            >
-              Home <span className="sr-only">(current)</span>
-            </a>
-            <a
-              className={`nav-item nav-link ${this.state.retro}`}
-              href="/retro"
-              onClick={() => this.switchActive("retro")}
-            >
-              Retro
-            </a>
-          </div>
-        </div>
-      </nav>
+
+      </nav >
     );
   }
 }
