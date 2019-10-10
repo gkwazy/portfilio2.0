@@ -31,21 +31,32 @@ overflow-x: hidden;
     white-space: nowrap;
   }
 
-//Skills
- .cardCol{
+.jumbotron{
+    margin-bottom:0;
+  }
+
+//Standard
+
+.standardJumbo1{
+  background-color:black;
+  background-repeat:no-repeat;
+  color:white;
+}
+ 
+
+
+ 
+
+//Mario 
+.cardCol{
    padding:3px;
  }
 
-//Jumbotron
-  .jumbotron{
-    margin-bottom:0;
-  }
+
 
   .jumb1{
     background-color:lightskyblue;
   }
-
-//Mario
   .mariosky{
     background-color:lightskyblue;
     height: 220px

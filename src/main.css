@@ -40,12 +40,18 @@ body {
   white-space: nowrap;
 }
 
-.cardCol {
-  padding: 3px;
-}
-
 .jumbotron {
   margin-bottom: 0;
+}
+
+.standardJumbo1 {
+  background-color: black;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.cardCol {
+  padding: 3px;
 }
 
 .jumb1 {
