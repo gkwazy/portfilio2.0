@@ -4,6 +4,7 @@ html{
   overflow-x: hidden;
 }
 body {
+margin:0;
 background-color:$mycolor;
 overflow-x: hidden;
 }
@@ -37,16 +38,44 @@ overflow-x: hidden;
 
 //Standard
 
-.standardJumbo1{
-  background-color:black;
-  background-repeat:no-repeat;
+.standardedLanding{
+  position: relative;
+ 
+}
+
+#shellPic{
+  background-image:url(./pics/shell.jpg);
+  background-size:cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom:0;
+  height:100hv;
+  z-index: -6; 
   color:white;
 }
- 
 
+#shellPic-overlay{
+  padding:0px;
+  margin: 0px;
+  left:-15px;
+  position:relative;
+  background-color:rgba(13, 14, 13, 0.3);
+  top: 0;
+  bottom:100px;
+  height:100%;
+  width:110%;
+  z-index: -5;
+  padding-bottom: 200px;
+}
 
- 
+.nameTitle{
+padding-bottom: 100px
+}
 
+#goalTitle{
+  // margin: 20px;
+}
 //Mario 
 .cardCol{
    padding:3px;
