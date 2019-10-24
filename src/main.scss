@@ -1,170 +1,178 @@
 $mycolor: black;
 
-html{
+html {
   overflow-x: hidden;
 }
 body {
-margin:0;
-background-color:$mycolor;
-overflow-x: hidden;
+  margin: 0;
+  background-color: $mycolor;
+  overflow-x: hidden;
 }
 .App {
-    text-align: center;
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: black;
-  }
-  
-  .background {
-    background-color: black;
-  }
-  
-  .container {
-    width: 100%;
-    white-space: nowrap;
-  }
+  text-align: center;
+}
 
-.jumbotron{
-    margin-bottom:0;
-  }
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.background {
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
 
 //Standard
 
-.standardedLanding{
+.standardedLanding {
   position: relative;
- 
 }
 
-#shellPic{
-  background-image:url(./pics/shell.jpg);
-  background-size:cover;
+#shellPic {
+  background-image: url(./pics/shell.jpg);
+  background-size: cover;
   background-position: center center;
   position: relative;
   top: 0;
-  bottom:0;
-  height:100hv;
-  z-index: -6; 
-  color:white;
+  bottom: 0;
+  height: 100hv;
+  z-index: -6;
+  color: white;
 }
 
-#shellPic-overlay{
-  padding:0px;
+#shellPic-overlay {
+  padding: 0px;
   margin: 0px;
-  left:-15px;
-  position:relative;
-  background-color:rgba(13, 14, 13, 0.3);
+  left: -15px;
+  position: relative;
+  background-color: rgba(13, 14, 13, 0.3);
   top: 0;
-  bottom:100px;
-  height:100%;
-  width:110%;
+  bottom: 100px;
+  height: 100%;
+  width: 110%;
   z-index: -5;
   padding-bottom: 200px;
 }
 
-#sandyPic{
-  background-image:url(./pics/sandy.jpg);
-  background-size:cover;
+#sandyPic {
+  background-image: url(./pics/sandy.jpg);
+  background-size: cover;
   background-position: center center;
   position: relative;
   top: 0;
-  bottom:0;
-  height:100hv;
-  z-index: -6; 
-  color:white;
+  bottom: 0;
+  height: 100hv;
+  z-index: -6;
+  color: white;
+}
+.experience {
+  margin-bottom: 50px;
 }
 
-.nameTitle{
-padding-bottom: 100px
+.nameTitle {
+  padding-bottom: 100px;
 }
 
-#goalTitle{
+#goalTitle {
   // margin: 20px;
 }
-//Mario 
-.cardCol{
-   padding:3px;
- }
+//Mario
+.cardCol {
+  padding: 3px;
+}
 
+.jumb1 {
+  background-color: lightskyblue;
+}
+.mariosky {
+  background-color: lightskyblue;
+  height: 220px;
+}
 
+.mariovalley {
+  background-color: green;
+  height: 50px;
+}
 
-  .jumb1{
-    background-color:lightskyblue;
-  }
-  .mariosky{
-    background-color:lightskyblue;
-    height: 220px
-  }
+.marioroad {
+  background-color: black;
+  height: 250px;
+}
 
-  .mariovalley{
-    background-color: green;
-    height:50px;
-  }
+.mariolines {
+  box-sizing: border-box;
+  border: 5px dashed white;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
 
-  .marioroad{
-    background-color:black;
-    height:250px;
-  }
+.mariokart {
+  position: absolute;
+  top: -150px;
+  animation: drive 10s linear infinite both;
+}
 
-  .mariolines{
-    box-sizing: border-box;
-    border: 5px dashed white;
-    height: 0px;
-    width: 100%;
-    position: absolute;
-    top: 45%;
-  }
+.luigikart {
+  position: absolute;
+  top: -10px;
+  animation: drive 11s linear infinite both;
+}
 
-  .mariokart{
-    position: absolute;
-    top:-150px;
-    animation: drive 10s linear infinite both,
-  }
+.browserkart {
+  position: absolute;
+  top: -100px;
+  animation: drive 15s linear infinite both;
+}
 
-  .luigikart{
-    position: absolute;
-    top:-10px;
-    animation: drive 11s linear infinite both;
-  }
+.toadkart {
+  position: absolute;
+  top: -200px;
+  animation: drive 7s linear infinite both;
+}
 
-  .browserkart{
-    position: absolute;
-    top:-100px;
-    animation: drive 15s linear infinite both;
-  }
+.bigcloud {
+  position: absolute;
+  opacity: 0.5;
+  animation: wind 30s linear infinite both;
+}
+.smallcloud {
+  position: absolute;
+  top: 20px;
+  animation: wind 20s linear infinite both;
+}
 
-  .toadkart{
-    position: absolute;
-    top:-200px;
-    animation: drive 7s linear infinite both;
-  }
+//marioKeyFrames
 
-  .bigcloud{
-    position: absolute;
-    opacity:0.5;
-    animation: wind 30s linear infinite both;
+@keyframes drive {
+  0% {
+    transform: translateX(-30vw);
   }
-  .smallcloud{
-    position: absolute;
-    top:20px;
-    animation: wind 20s linear infinite both;
+  100% {
+    transform: translateX(110vw);
   }
-  
-  //marioKeyFrames
+}
 
-  @keyframes drive{
-    0%{transform: translateX(-30vw)}
-    100%{transform: translateX(110vw)}
+@keyframes wind {
+  0% {
+    transform: translateX(100vw);
   }
-
-  @keyframes wind {
-    0%{transform: translateX(100vw)}
-    100%{transform: translateX(-100vw)}
+  100% {
+    transform: translateX(-100vw);
   }
+}
