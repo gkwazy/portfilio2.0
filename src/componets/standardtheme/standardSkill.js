@@ -15,12 +15,7 @@ class StandardSkill extends Component {
               </h5>
               <div className="card-body">
                 <p className="card-text">
-                  Take your Web pages to a whole new level with professional
-                  frontend that is supported with a powerful and elegant
-                  backend. Bring new technology and advancement to your web
-                  pages. Build web pages is more than just a career, I enjoy
-                  staying on top of the best practices to be able to give the
-                  best product out there
+                  Take your web page to a whole new level with a professional front-end that is supported with a powerful and elegant back-end. Building web pages is more than just a career for me, it’s a passion. I enjoy staying on top of the best practices to be able to give the best product out there.
                 </p>
               </div>
             </div>
@@ -35,10 +30,7 @@ class StandardSkill extends Component {
               </h5>
               <div className="card-body">
                 <p className="card-text">
-                  Have your site look great no matter where you are looking at,
-                  whether you it up on your phone or on your computer have your
-                  pages give a great user experience that your customers will
-                  keep coming back for{" "}
+                  Have your site look great no matter how you are viewing it. Whether it’s up on your phone or on your computer have your pages give a great user experience that your customers will keep coming back for.
                 </p>
               </div>
             </div>
