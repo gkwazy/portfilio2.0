@@ -17,7 +17,7 @@ class Jumbo extends Component {
                 id="goalTitle"
               >
                 <h5 className="display-4">
-                  My goal is to makes dreams come to life and you show the world
+                  My goal is to make dreams come to life and you show the world
                   yours.
                 </h5>
               </div>
