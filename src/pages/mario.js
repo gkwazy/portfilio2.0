@@ -4,6 +4,7 @@ import MarioJumbo from "../componets/mariotheme/marioJumbotron.js";
 import Mario from "../componets/mariotheme/mario.js"
 import MarioSkill from "../componets/mariotheme/marioSkill.js";
 import MarioJumbo2 from "../componets/mariotheme/marioJumbotron2.js"
+import MarioPassProjects from "../componets/mariotheme/MarioPassProjects.js";
 
 class MarioPage extends Component {
     render() {
@@ -13,6 +14,7 @@ class MarioPage extends Component {
                 <Mario />
                 <MarioJumbo2 />
                 <MarioSkill />
+                <MarioPassProjects />
             </div>
         );
     }

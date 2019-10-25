@@ -76,7 +76,7 @@ class MarioSkill extends Component {
             </div>
           </div>
           <div className="col-sm-6 col-md-4  col-lg-3 cardCol">
-            <div className="card h-100">
+            <div className="card h-100 text-center">
               <img
                 src="./pics/mushroom.png"
                 className="card-img-top img-fluid"
@@ -84,13 +84,24 @@ class MarioSkill extends Component {
                 height="200"
                 width="200"
               />
-              <h5 className="card-title text-center font-weight-bold text-uppercase">
-                Card title
+              <h5 className="card-title  font-weight-bold text-uppercase">
+                Links
               </h5>
               <div className="card-body">
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <a href="https://www.linkedin.com/in/garret-wasden/">
+                    <img
+                      src="https://img.icons8.com/officel/120/000000/linkedin.png"
+                      alt="Linkdin"
+                    />
+                  </a>
+                  <a href="https://www.linkedin.com/in/garret-wasden/">
+                    <img
+                      src="https://img.icons8.com/material-outlined/120/000000/github.png"
+                      alt="GitHub"
+                    />
+                  </a>
+                  <h5>Email: gkwazy@gmail.com</h5>
                 </p>
               </div>
             </div>

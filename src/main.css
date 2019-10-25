@@ -87,6 +87,18 @@ body {
   color: white;
 }
 
+#marioPic {
+  background-image: url(./pics/marioBackground.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100hv;
+  z-index: -6;
+  color: white;
+}
+
 .experience {
   margin-bottom: 50px;
 }
@@ -97,6 +109,16 @@ body {
 
 .cardCol {
   padding: 3px;
+}
+
+.marioJumbo {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.jumboTwo {
+  font-family: 'Mallanna', sans-serif;
+  background-color: #292b2c;
+  color: white;
 }
 
 .jumb1 {

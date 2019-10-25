@@ -85,6 +85,7 @@ class StandardSkill extends Component {
                       alt="GitHub"
                     />
                   </a>
+                  <h5>Email: gkwazy@gmail.com</h5>
                 </p>
               </div>
             </div>

@@ -4,9 +4,11 @@ class MarioJumbo2 extends Component {
     render() {
         return (
             <div className="row">
-                <div className="jumbotron jumbotron text-center">
-                    <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <div className="jumbotron jumbotron text-center jumboTwo">
+                    <div className="col-8 offset-2">
+                        <h3> I am a full stack developer that has a passion for making peoples web pages look and work to perfection. I have worked with MySQL, Javascript, CSS, HTML,Angularjs, Filemaker and React. I love to learn about new tech that is always coming out and enjoy working in a team to accomplish goals and making great applications.
             </h3>
+                    </div>
                 </div>
             </div>
         );

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class MarioJumbo extends Component {
     render() {
         return (
-            <div className="jumbotron jumbotron-fluid text-center jumb1">
+            <div className="jumbotron jumbotron-fluid text-center jumb1 marioJumbo">
                 <h1 className="display-4">Garret Wasden</h1>
                 <h2 className="display-5">Web Developer</h2>
                 <p>
