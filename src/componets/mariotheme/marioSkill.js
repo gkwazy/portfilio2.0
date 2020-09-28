@@ -87,7 +87,7 @@ class MarioSkill extends Component {
                       alt="Linkdin"
                     />
                   </a>
-                  <a href="https://www.linkedin.com/in/garret-wasden/">
+                  <a href="https://github.com/gkwazy">
                     <img
                       src="https://img.icons8.com/material-outlined/120/000000/github.png"
                       alt="GitHub"
