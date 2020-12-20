@@ -4,6 +4,7 @@ import "./main.css";
 import NavBar from "./componets/NavBar.js"
 import MarioPage from "./pages/mario";
 import StandardPage from "./pages/standard";
+import Test from "./pages/homePage";
 
 class App extends Component {
   render() {
@@ -15,6 +16,8 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={StandardPage} />
               <Route exact path="/mariotheme" component={MarioPage} />
+              <Route exact path="/test" component={Test} />
+
               <Route component={StandardPage} />
             </Switch>
           </div>
